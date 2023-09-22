@@ -176,7 +176,7 @@
   },
   "FunctionParamsInvariantScripts": {},
   "FunctionParamsInvariantScriptsOnInstances": {},
-  "HeaderLastSavedDateTimeUTC": "09/22/2023 17:18:25",
+  "HeaderLastSavedDateTimeUTC": "09/22/2023 17:38:42",
   "IsLegacyComponentAllowGlobalScopeCase": false,
   "LocalConnectionIDReferences": {},
   "LocalDatabaseReferencesAsEmpty": false,
@@ -187,18 +187,18 @@
   "OrderComponentTemplate": {},
   "OrderDataSource": {
     "Budgets": 8,
-    "BudgetsCollect": 10,
+    "BudgetsCollect": 11,
     "Categories": 6,
     "CustomGallerySample": 0,
     "DropDownSample": 3,
     "ExpenseByCategory": 4,
-    "ExpenseByCategoryCollect": 12,
+    "ExpenseByCategoryCollect": 10,
     "Expenses": 7,
-    "ExpensesCollect": 11,
+    "ExpensesCollect": 9,
     "ImageGallerySample": 2,
     "PieChartSample": 1,
     "Receipts": 5,
-    "ReceiptsCollect": 9
+    "ReceiptsCollect": 12
   },
   "OrderGroupControls": {
     "Group1": {
