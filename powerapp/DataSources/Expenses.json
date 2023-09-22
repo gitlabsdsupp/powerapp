@@ -1,0 +1,22 @@
+[
+  {
+    "Data": "[{\"BudgetId\":1,\"BudgetTitle\":\"Team events at Contoso\",\"Category\":\"Food\",\"Expense\":300,\"ExpenseName\":\"Cake\",\"Id\":1,\"__PowerAppsId__\":\"DnjguyIMW8A\"},{\"BudgetId\":1,\"BudgetTitle\":\"Team events at Contoso\",\"Category\":\"Entertainment\",\"Expense\":500,\"ExpenseName\":\"Movie\",\"Id\":2,\"__PowerAppsId__\":\"asrq18cFFww\"},{\"BudgetId\":1,\"BudgetTitle\":\"Team events at Contoso\",\"Category\":\"Miscellaneous\",\"Expense\":1000,\"ExpenseName\":\"Extra \",\"Id\":3,\"__PowerAppsId__\":\"qrRehyVn7_0\"},{\"BudgetId\":2,\"BudgetTitle\":\"Spring customer visits  \",\"Category\":\"Transport\",\"Expense\":1000,\"ExpenseName\":\"Fuel\",\"Id\":4,\"__PowerAppsId__\":\"0UzgnFr0Ln4\"},{\"BudgetId\":2,\"BudgetTitle\":\"Spring customer visits  \",\"Category\":\"Food\",\"Expense\":700,\"ExpenseName\":\"Burger\",\"Id\":5,\"__PowerAppsId__\":\"B55g3cXwpQI\"},{\"BudgetId\":2,\"BudgetTitle\":\"Team events at Contoso\",\"Category\":\"Transport\",\"Expense\":375,\"ExpenseName\":\"Fuel\",\"Id\":6,\"__PowerAppsId__\":\"FuLTZg3Vf4w\"},{\"BudgetId\":3,\"BudgetTitle\":\"Meta Conference XVI\",\"Category\":\"Transport\",\"Expense\":2000,\"ExpenseName\":\"Car wash\",\"Id\":7,\"__PowerAppsId__\":\"xgAiWD3WuP4\"},{\"BudgetId\":3,\"BudgetTitle\":\"Meta Conference XVI\",\"Category\":\"Interior designs\",\"Expense\":1500,\"ExpenseName\":\"House keeping\",\"Id\":8,\"__PowerAppsId__\":\"sVx7B1Jnvj4\"},{\"BudgetId\":3,\"BudgetTitle\":\"Meta Conference XVI\",\"Category\":\"Entertainment\",\"Expense\":3232,\"ExpenseName\":\"Theme park\",\"Id\":9,\"__PowerAppsId__\":\"wImnxFA_LE0\"},{\"BudgetId\":3,\"BudgetTitle\":\"Meta Conference XVI\",\"Category\":\"Miscellaneous\",\"Expense\":1000,\"ExpenseName\":\"Extra \",\"Id\":10,\"__PowerAppsId__\":\"RgwWS_MSE0U\"},{\"BudgetId\":2,\"BudgetTitle\":\"Spring customer visits  \",\"Category\":\"Interior designs\",\"Expense\":100,\"ExpenseName\":\"Washing\",\"Id\":11,\"__PowerAppsId__\":\"JVSeIweJ8T8\"},{\"BudgetId\":1,\"BudgetTitle\":\"Team events at Contoso\",\"Category\":\"Interior designs\",\"Expense\":150,\"ExpenseName\":\"Cleaning\",\"Id\":14,\"__PowerAppsId__\":\"5ptB7yhoZow\"},{\"BudgetId\":2,\"BudgetTitle\":\"Spring customer visits  \",\"Category\":\"Miscellaneous\",\"Expense\":1000,\"ExpenseName\":\"Extra \",\"Id\":15,\"__PowerAppsId__\":\"yfWmAzQ5UKE\"},{\"BudgetId\":4,\"BudgetTitle\":\"Litware team event\",\"Category\":\"Transport\",\"Expense\":510,\"ExpenseName\":\"Tour\",\"Id\":16,\"__PowerAppsId__\":\"nMq4TD0Jzag\"},{\"BudgetId\":4,\"BudgetTitle\":\"Litware team event\",\"Category\":\"Food\",\"Expense\":345,\"ExpenseName\":\"Team outing\",\"Id\":17,\"__PowerAppsId__\":\"df5za4aPoYE\"},{\"BudgetId\":4,\"BudgetTitle\":\"Litware team event\",\"Category\":\"Miscellaneous\",\"Expense\":320,\"ExpenseName\":\"Extra \",\"Id\":18,\"__PowerAppsId__\":\"xjbfHQ3x13o\"},{\"BudgetId\":3,\"BudgetTitle\":\"Meta Conference XVI\",\"Category\":\"Food\",\"Expense\":1000,\"ExpenseName\":\"Dinner\",\"Id\":19,\"__PowerAppsId__\":\"AVvQOisJr0Q\"},{\"BudgetId\":5,\"BudgetTitle\":\"OneWeek show\",\"Category\":\"Transport\",\"Expense\":1000,\"ExpenseName\":\"Cab\",\"Id\":20,\"__PowerAppsId__\":\"mQVytFlzjR0\"},{\"BudgetId\":5,\"BudgetTitle\":\"OneWeek show\",\"Category\":\"Interior designs\",\"Expense\":800,\"ExpenseName\":\"Furniture\",\"Id\":21,\"__PowerAppsId__\":\"7NyBtrKuLiI\"},{\"BudgetId\":5,\"BudgetTitle\":\"OneWeek show\",\"Category\":\"Food\",\"Expense\":1500,\"ExpenseName\":\"Party\",\"Id\":22,\"__PowerAppsId__\":\"YT-5H8f7mQ8\"},{\"BudgetId\":5,\"BudgetTitle\":\"OneWeek show\",\"Category\":\"Miscellaneous\",\"Expense\":4000,\"ExpenseName\":\"Extra \",\"Id\":23,\"__PowerAppsId__\":\"xLgz5ILLDQg\"}]",
+    "IsSampleData": false,
+    "IsWritable": false,
+    "Name": "Expenses",
+    "OrderedColumnNames": [
+      "Id",
+      "ExpenseName",
+      "BudgetTitle",
+      "Category",
+      "Expense",
+      "BudgetId",
+      "__PowerAppsId__"
+    ],
+    "OriginalName": "Expenses",
+    "OriginalSchema": "*[BudgetId:n, BudgetTitle:s, Category:s, Expense:n, ExpenseName:s, Id:n, __PowerAppsId__:s]",
+    "Schema": "*[BudgetId:n, BudgetTitle:s, Category:s, Expense:n, ExpenseName:s, Id:n, __PowerAppsId__:s]",
+    "Token": "dummyToken",
+    "Type": "StaticDataSourceInfo"
+  }
+]

@@ -1,0 +1,19 @@
+[
+  {
+    "Data": "[{\"BudgetAmount\":10000,\"BudgetId\":1,\"BudgetTitle\":\"Team events at Contoso\",\"__PowerAppsId__\":\"J0bfRpd18sU\"},{\"BudgetAmount\":5000,\"BudgetId\":2,\"BudgetTitle\":\"Spring customer visits  \",\"__PowerAppsId__\":\"zZPDGaHc-J0\"},{\"BudgetAmount\":10000,\"BudgetId\":3,\"BudgetTitle\":\"Meta Conference XVI\",\"__PowerAppsId__\":\"bMKltTc8jsE\"},{\"BudgetAmount\":5000,\"BudgetId\":4,\"BudgetTitle\":\"Litware team event\",\"__PowerAppsId__\":\"Y6S6T1flAJE\"},{\"BudgetAmount\":25000,\"BudgetId\":5,\"BudgetTitle\":\"OneWeek show\",\"__PowerAppsId__\":\"Cn1envzIlsA\"}]",
+    "IsSampleData": false,
+    "IsWritable": false,
+    "Name": "Budgets",
+    "OrderedColumnNames": [
+      "BudgetTitle",
+      "BudgetAmount",
+      "BudgetId",
+      "__PowerAppsId__"
+    ],
+    "OriginalName": "Budgets",
+    "OriginalSchema": "*[BudgetAmount:n, BudgetId:n, BudgetTitle:s, __PowerAppsId__:s]",
+    "Schema": "*[BudgetAmount:n, BudgetId:n, BudgetTitle:s, __PowerAppsId__:s]",
+    "Token": "dummyToken",
+    "Type": "StaticDataSourceInfo"
+  }
+]

@@ -1,0 +1,21 @@
+[
+  {
+    "Data": "[{\"BudgetId\":null,\"ExpenseId\":null,\"Id\":null,\"ReceiptName\":null,\"Receiptlist[image]\":null,\"__PowerAppsId__\":\"cEvsdOdvd5Y\"}]",
+    "IsSampleData": false,
+    "IsWritable": false,
+    "Name": "Receipts",
+    "OrderedColumnNames": [
+      "Id",
+      "BudgetId",
+      "ExpenseId",
+      "Receiptlist[image]",
+      "ReceiptName",
+      "__PowerAppsId__"
+    ],
+    "OriginalName": "Receipts",
+    "OriginalSchema": "*[BudgetId:n, ExpenseId:n, Id:n, ReceiptName:s, 'Receiptlist[image]':s, __PowerAppsId__:s]",
+    "Schema": "*[BudgetId:n, ExpenseId:n, Id:n, ReceiptName:s, 'Receiptlist[image]':s, __PowerAppsId__:s]",
+    "Token": "dummyToken",
+    "Type": "StaticDataSourceInfo"
+  }
+]

@@ -1,0 +1,18 @@
+[
+  {
+    "Data": "[{\"CategoryName\":\"Food\",\"ID\":\"1\",\"__PowerAppsId__\":\"U9RdQziLhTc\"},{\"CategoryName\":\"Entertainment\",\"ID\":\"2\",\"__PowerAppsId__\":\"A4essAeblT4\"},{\"CategoryName\":\"Transport\",\"ID\":\"3\",\"__PowerAppsId__\":\"3gW_Olt3cxw\"},{\"CategoryName\":\"Interior designs\",\"ID\":\"4\",\"__PowerAppsId__\":\"IFYPUY8s3nk\"},{\"CategoryName\":\"Miscellaneous\",\"ID\":\"5\",\"__PowerAppsId__\":\"dmzuamRZuLk\"}]",
+    "IsSampleData": false,
+    "IsWritable": false,
+    "Name": "Categories",
+    "OrderedColumnNames": [
+      "ID",
+      "CategoryName",
+      "__PowerAppsId__"
+    ],
+    "OriginalName": "Categories",
+    "OriginalSchema": "*[CategoryName:s, ID:s, __PowerAppsId__:s]",
+    "Schema": "*[CategoryName:s, ID:s, __PowerAppsId__:s]",
+    "Token": "dummyToken",
+    "Type": "StaticDataSourceInfo"
+  }
+]

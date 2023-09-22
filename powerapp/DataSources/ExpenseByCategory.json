@@ -1,0 +1,20 @@
+[
+  {
+    "Data": "[{\"BudgetId\":1,\"Category\":\"Food\",\"Expense\":300,\"ID\":1,\"__PowerAppsId__\":\"psp_kZemrRo\"},{\"BudgetId\":1,\"Category\":\"Entertainment\",\"Expense\":500,\"ID\":2,\"__PowerAppsId__\":\"ZWBfvj3MALY\"},{\"BudgetId\":1,\"Category\":\"Miscellaneous\",\"Expense\":1000,\"ID\":3,\"__PowerAppsId__\":\"xXJ0tNqO-68\"},{\"BudgetId\":2,\"Category\":\"Transport\",\"Expense\":1000,\"ID\":4,\"__PowerAppsId__\":\"t05U9N06Is4\"},{\"BudgetId\":2,\"Category\":\"Food\",\"Expense\":700,\"ID\":5,\"__PowerAppsId__\":\"BBPt8cxj0CE\"},{\"BudgetId\":2,\"Category\":\"Transport\",\"Expense\":375,\"ID\":6,\"__PowerAppsId__\":\"yywDsQ4gCWM\"},{\"BudgetId\":3,\"Category\":\"Transport\",\"Expense\":2000,\"ID\":7,\"__PowerAppsId__\":\"-ACXNDuuXMc\"},{\"BudgetId\":3,\"Category\":\"Interior designs\",\"Expense\":1500,\"ID\":8,\"__PowerAppsId__\":\"YlxdnSNf5LU\"},{\"BudgetId\":3,\"Category\":\"Entertainment\",\"Expense\":3232,\"ID\":9,\"__PowerAppsId__\":\"cW_J-2uIUm8\"},{\"BudgetId\":3,\"Category\":\"Miscellaneous\",\"Expense\":1000,\"ID\":10,\"__PowerAppsId__\":\"1NoRYVHyfss\"},{\"BudgetId\":2,\"Category\":\"Interior designs\",\"Expense\":100,\"ID\":11,\"__PowerAppsId__\":\"X6DW-mPY7Hk\"},{\"BudgetId\":1,\"Category\":\"Interior designs\",\"Expense\":150,\"ID\":12,\"__PowerAppsId__\":\"95IdtpOoy8E\"},{\"BudgetId\":2,\"Category\":\"Miscellaneous\",\"Expense\":1000,\"ID\":13,\"__PowerAppsId__\":\"KQ3BQpMhkMw\"},{\"BudgetId\":4,\"Category\":\"Transport\",\"Expense\":510,\"ID\":14,\"__PowerAppsId__\":\"aKO_CjBrHyE\"},{\"BudgetId\":4,\"Category\":\"Food\",\"Expense\":345,\"ID\":15,\"__PowerAppsId__\":\"plRwg0VvYlU\"},{\"BudgetId\":4,\"Category\":\"Miscellaneous\",\"Expense\":320,\"ID\":16,\"__PowerAppsId__\":\"HLP_GxRzsTE\"},{\"BudgetId\":3,\"Category\":\"Food\",\"Expense\":1000,\"ID\":17,\"__PowerAppsId__\":\"0TGQeY8OKag\"},{\"BudgetId\":5,\"Category\":\"Transport\",\"Expense\":1000,\"ID\":18,\"__PowerAppsId__\":\"8Ol15Hh-44s\"},{\"BudgetId\":5,\"Category\":\"Interior designs\",\"Expense\":800,\"ID\":19,\"__PowerAppsId__\":\"jbTPtxZwY0E\"},{\"BudgetId\":5,\"Category\":\"Food\",\"Expense\":1500,\"ID\":20,\"__PowerAppsId__\":\"M7xe6h_qTrY\"},{\"BudgetId\":5,\"Category\":\"Miscellaneous\",\"Expense\":4000,\"ID\":21,\"__PowerAppsId__\":\"mp8-Y0z3sKg\"}]",
+    "IsSampleData": false,
+    "IsWritable": false,
+    "Name": "ExpenseByCategory",
+    "OrderedColumnNames": [
+      "ID",
+      "Category",
+      "BudgetId",
+      "Expense",
+      "__PowerAppsId__"
+    ],
+    "OriginalName": "ExpenseByCategory",
+    "OriginalSchema": "*[BudgetId:n, Category:s, Expense:n, ID:n, __PowerAppsId__:s]",
+    "Schema": "*[BudgetId:n, Category:s, Expense:n, ID:n, __PowerAppsId__:s]",
+    "Token": "dummyToken",
+    "Type": "StaticDataSourceInfo"
+  }
+]
