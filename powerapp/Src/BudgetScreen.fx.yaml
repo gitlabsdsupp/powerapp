@@ -136,10 +136,7 @@ BudgetScreen As screen:
         PressedColor: =TextBox2_5.Color
         PressedFill: =TextBox2_5.Fill
         Size: =18
-        Text: |
-            =If(Text(Coalesce(Sum(Gallery1.AllItems,SpendText.Text),0),"[$-en-US]$#,##") ="$",
-                "$0",
-                Text(Coalesce(Sum(Gallery1.AllItems,SpendText.Text),0),"[$-en-US]$#,##"))
+        Text: ="0 Eur"
         VerticalAlign: =VerticalAlign.Top
         Width: =162
         Wrap: =false
@@ -240,7 +237,7 @@ BudgetScreen As screen:
             VerticalAlign: =VerticalAlign.Top
             Width: =260.35596995407934
             Wrap: =false
-            X: =14.6440300459207
+            X: =14
             Y: =5.290043290043287
             ZIndex: =4
 
