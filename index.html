@@ -1,15 +1,70 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Hello World</title>
+    <title>Compra de Bilhetes para Jogos de Futebol</title>
     <style>
         body {
-            background-color: red;
+            font-family: Arial, sans-serif;
+            background-color: #f2f2f2;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+        }
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 0 20px;
+        }
+        .game {
+            background-color: #fff;
+            border-radius: 5px;
+            margin-bottom: 10px;
+            padding: 10px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .game img {
+            max-width: 100px;
+            margin-right: 10px;
+        }
+        button {
+            background-color: #333;
+            color: #fff;
+            padding: 5px 10px;
+            border: none;
+            border-radius: 3px;
+            cursor: pointer;
         }
     </style>
 </head>
 <body>
-    <h1>Hello World</h1>
-    <p>This is a simple website that displays "Hello World" on the screen.</p>
+    <header>
+        <h1>Compra de Bilhetes para Jogos de Futebol</h1>
+    </header>
+    <div class="container">
+        <div class="game">
+            <img src="imagem-jogo1.jpg" alt="Jogo 1">
+            <div>
+                <h2>Jogo 1</h2>
+                <p>Preço: €20</p>
+            </div>
+            <button onclick="alert('Bilhete para Jogo 1 comprado com sucesso!')">Comprar</button>
+        </div>
+        <div class="game">
+            <img src="imagem-jogo2.jpg" alt="Jogo 2">
+            <div>
+                <h2>Jogo 2</h2>
+                <p>Preço: €25</p>
+            </div>
+            <button onclick="alert('Bilhete para Jogo 2 comprado com sucesso!')">Comprar</button>
+        </div>
+        <!-- Adicionar mais jogos conforme necessário -->
+    </div>
 </body>
 </html>
