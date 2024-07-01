@@ -1,11 +1,12 @@
+```html
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Compra de Bilhetes para Jogos de Futebol</title>
+    <title>Compra de Bilhetes para Concertos</title>
     <style>
         body {
             font-family: Arial, sans-serif;
-            background-color: #f2f2f2;
+            background-color: #ccc; /* Cinzento */
             margin: 0;
             padding: 0;
         }
@@ -20,18 +21,20 @@
             margin: 20px auto;
             padding: 0 20px;
         }
-        .game {
-            background-color: #fff;
+        .concert {
+            background-color: #f9f9f9;
             border-radius: 5px;
             margin-bottom: 10px;
             padding: 10px;
             display: flex;
             justify-content: space-between;
             align-items: center;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
         }
-        .game img {
+        .concert img {
             max-width: 100px;
             margin-right: 10px;
+            border-radius: 5px;
         }
         button {
             background-color: #333;
@@ -41,30 +44,86 @@
             border-radius: 3px;
             cursor: pointer;
         }
+        .cart-icon {
+            position: fixed;
+            top: 10px;
+            right: 10px;
+            background-color: #333;
+            color: #fff;
+            padding: 8px;
+            border-radius: 50%;
+            cursor: pointer;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        .cart {
+            position: fixed;
+            top: 50px;
+            right: 10px;
+            background-color: #fff;
+            border: 1px solid #333;
+            padding: 10px;
+            border-radius: 5px;
+            display: none;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
     </style>
 </head>
 <body>
     <header>
-        <h1>Compra de Bilhetes para Jogos de Futebol</h1>
+        <h1>Compra de Bilhetes para Concertos</h1>
     </header>
     <div class="container">
-        <div class="game">
-            <img src="imagem-jogo1.jpg" alt="Jogo 1">
+        <div class="concert">
+            <img src="imagem-concerto1.jpg" alt="Concerto 1">
             <div>
-                <h2>Jogo 1</h2>
-                <p>Preço: €20</p>
+                <h2>Concerto 1</h2>
+                <p>Preço: €40</p>
             </div>
-            <button onclick="alert('Bilhete para Jogo 1 comprado com sucesso!')">Comprar</button>
+            <button onclick="addToCart('Concerto 1')">Adicionar ao Carrinho</button>
         </div>
-        <div class="game">
-            <img src="imagem-jogo2.jpg" alt="Jogo 2">
+        <div class="concert">
+            <img src="imagem-concerto2.jpg" alt="Concerto 2">
             <div>
-                <h2>Jogo 2</h2>
-                <p>Preço: €25</p>
+                <h2>Concerto 2</h2>
+                <p>Preço: €50</p>
             </div>
-            <button onclick="alert('Bilhete para Jogo 2 comprado com sucesso!')">Comprar</button>
+            <button onclick="addToCart('Concerto 2')">Adicionar ao Carrinho</button>
         </div>
-        <!-- Adicionar mais jogos conforme necessário -->
+        <!-- Adicionar mais concertos conforme necessário -->
     </div>
+
+    <div class="cart-icon" onclick="toggleCart()">
+        <span>&#128722;</span>
+    </div>
+    
+    <div class="cart" id="cart">
+        <h2>Carrinho</h2>
+        <ul id="cart-items"></ul>
+        <button onclick="buyTickets()">Comprar</button>
+    </div>
+
+    <script>
+        function addToCart(event) {
+            const cartItems = document.getElementById('cart-items');
+            const li = document.createElement('li');
+            li.textContent = event;
+            cartItems.appendChild(li);
+        }
+
+        function toggleCart() {
+            const cart = document.getElementById('cart');
+            if (cart.style.display === 'none') {
+                cart.style.display = 'block';
+            } else {
+                cart.style.display = 'none';
+            }
+        }
+
+        function buyTickets() {
+            alert('Bilhetes comprados com sucesso!');
+            document.getElementById('cart-items').innerHTML = '';
+        }
+    </script>
 </body>
 </html>
+```
