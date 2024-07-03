@@ -31,6 +31,9 @@
         .game h2 {
             margin: 0;
         }
+        .game span {
+            margin-right: 10px;
+        }
         .game button {
             background-color: #333;
             color: #fff;
@@ -50,17 +53,17 @@
     <div class="container">
         <div class="game">
             <h2>Jogo 1 - Barcelona vs Real Madrid</h2>
-            <span>Preço: €50</span>
+            <span>Data: 15/06 18:30</span>
             <button onclick="buyTicket('Barcelona vs Real Madrid')">Comprar</button>
         </div>
         <div class="game">
             <h2>Jogo 2 - Manchester United vs Liverpool</h2>
-            <span>Preço: €45</span>
+            <span>Data: 22/06 20:00</span>
             <button onclick="buyTicket('Manchester United vs Liverpool')">Comprar</button>
         </div>
         <div class="game">
             <h2>Jogo 3 - Juventus vs AC Milan</h2>
-            <span>Preço: €55</span>
+            <span>Data: 30/06 17:45</span>
             <button onclick="buyTicket('Juventus vs AC Milan')">Comprar</button>
         </div>
     </div>
@@ -69,6 +72,21 @@
         function buyTicket(gameName) {
             alert("Bilhete comprado para o jogo: " + gameName);
         }
+
+        setInterval(function() {
+            var games = document.querySelectorAll('.game');
+            games.forEach(function(game) {
+                var timeElement = document.createElement('span');
+                var endTime = new Date("2024-06-15T18:30:00");
+                var currentTime = new Date();
+                var timeDiff = endTime - currentTime;
+                var timeRemaining = new Date(timeDiff);
+                var minutes = timeRemaining.getMinutes();
+                var seconds = timeRemaining.getSeconds();
+                timeElement.textContent = "Tempo restante: " + minutes + "m " + seconds + "s";
+                game.appendChild(timeElement);
+            });
+        }, 1000);
     </script>
 </body>
 </html>
