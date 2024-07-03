@@ -1,9 +1,19 @@
+```html
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Hello World</title>
+    <title>Compra de Bilhetes de Futebol</title>
+    <script>
+        function comprarBilhete(jogo) {
+            alert("Bilhete comprado para o jogo: " + jogo);
+        }
+    </script>
 </head>
 <body>
-    <h1>Hello World!</h1>
+    <h1>Selecione o jogo que deseja comprar bilhete:</h1>
+    <button onclick="comprarBilhete('Jogo A')">Comprar Bilhete para o Jogo A</button>
+    <button onclick="comprarBilhete('Jogo B')">Comprar Bilhete para o Jogo B</button>
+    <button onclick="comprarBilhete('Jogo C')">Comprar Bilhete para o Jogo C</button>
 </body>
 </html>
+```
