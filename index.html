@@ -1,9 +1,39 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>Hello World</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Venda de Bilhetes de Futebol</title>
+<style>
+    /* CSS para tornar o site responsivo */
+    @media screen and (max-width: 600px) {
+        /* Estilos para dispositivos móveis */
+    }
+</style>
 </head>
 <body>
-    <h1>Hello World!</h1>
+    <h1>Bem-vindo à nossa plataforma de venda de bilhetes de futebol!</h1>
+    <p>Escolha o jogo que deseja assistir e clique em "Comprar".</p>
+    
+    <div>
+        <h2>Jogo 1</h2>
+        <button onclick="comprarBilhete('Jogo 1')">Comprar</button>
+    </div>
+    
+    <div>
+        <h2>Jogo 2</h2>
+        <button onclick="comprarBilhete('Jogo 2')">Comprar</button>
+    </div>
+    
+    <div>
+        <h2>Jogo 3</h2>
+        <button onclick="comprarBilhete('Jogo 3')">Comprar</button>
+    </div>
+    
+    <script>
+        function comprarBilhete(jogo) {
+            alert("Bilhete comprado para o jogo: " + jogo);
+        }
+    </script>
 </body>
 </html>
