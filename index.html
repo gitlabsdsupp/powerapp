@@ -2,10 +2,20 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Hello World</title>
+    <title>Venda de Bilhetes de Futebol</title>
 </head>
 <body>
-    <h1>Hello World!</h1>
+    <h1>Selecione o jogo que deseja comprar:</h1>
+    
+    <button onclick="comprarBilhete('Jogo 1')">Comprar Bilhete para o Jogo 1</button>
+    <button onclick="comprarBilhete('Jogo 2')">Comprar Bilhete para o Jogo 2</button>
+    <button onclick="comprarBilhete('Jogo 3')">Comprar Bilhete para o Jogo 3</button>
+
+    <script>
+        function comprarBilhete(jogo) {
+            alert("Bilhete comprado para o jogo: " + jogo);
+        }
+    </script>
 </body>
 </html>
 ```
