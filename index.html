@@ -16,17 +16,20 @@
     <p>Escolha o jogo que deseja assistir e clique em "Comprar".</p>
     
     <div>
-        <h2>Jogo 1</h2>
+        <h2>Jogo 1 - Data: 15/08/2024 18:00</h2>
+        <p id="timer1"></p>
         <button onclick="comprarBilhete('Jogo 1')">Comprar</button>
     </div>
     
     <div>
-        <h2>Jogo 2</h2>
+        <h2>Jogo 2 - Data: 20/09/2024 20:00</h2>
+        <p id="timer2"></p>
         <button onclick="comprarBilhete('Jogo 2')">Comprar</button>
     </div>
     
     <div>
-        <h2>Jogo 3</h2>
+        <h2>Jogo 3 - Data: 10/10/2024 16:30</h2>
+        <p id="timer3"></p>
         <button onclick="comprarBilhete('Jogo 3')">Comprar</button>
     </div>
     
@@ -34,6 +37,24 @@
         function comprarBilhete(jogo) {
             alert("Bilhete comprado para o jogo: " + jogo);
         }
+
+        function atualizarTimer() {
+            var dataAtual = new Date();
+            
+            var dataJogo1 = new Date(2024, 7, 15, 18, 0, 0);
+            var diff1 = dataJogo1 - dataAtual;
+            document.getElementById("timer1").innerText = "Tempo restante: " + Math.ceil(diff1 / (1000 * 60)) + " minutos";
+            
+            var dataJogo2 = new Date(2024, 8, 20, 20, 0, 0);
+            var diff2 = dataJogo2 - dataAtual;
+            document.getElementById("timer2").innerText = "Tempo restante: " + Math.ceil(diff2 / (1000 * 60)) + " minutos";
+            
+            var dataJogo3 = new Date(2024, 9, 10, 16, 30, 0);
+            var diff3 = dataJogo3 - dataAtual;
+            document.getElementById("timer3").innerText = "Tempo restante: " + Math.ceil(diff3 / (1000 * 60)) + " minutos";
+        }
+
+        setInterval(atualizarTimer, 1000);
     </script>
 </body>
 </html>
