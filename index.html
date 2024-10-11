@@ -1,9 +1,21 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        HelloWorld
-    </head>
-    <body>
-        HelloWorld
-    </body>
+<head>
+    <title>Compra de Bilhetes de Futebol</title>
+</head>
+<body>
+    <h1>Bem-vindo à nossa página de venda de bilhetes de futebol</h1>
+    
+    <p>Selecione o jogo que deseja comprar bilhetes:</p>
+    
+    <button onclick="comprarBilhete('Barcelona vs Real Madrid')">Comprar Bilhete para Barcelona vs Real Madrid</button>
+    <button onclick="comprarBilhete('Manchester United vs Liverpool')">Comprar Bilhete para Manchester United vs Liverpool</button>
+    <button onclick="comprarBilhete('Bayern Munich vs Borussia Dortmund')">Comprar Bilhete para Bayern Munich vs Borussia Dortmund</button>
+    
+    <script>
+        function comprarBilhete(jogo) {
+            alert("Bilhete comprado para o jogo: " + jogo);
+        }
+    </script>
+</body>
 </html>
