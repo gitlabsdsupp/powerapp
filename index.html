@@ -1,18 +1,18 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Venda de Bilhetes de Futebol</title>
+    <title>Piu Piu - Dashboard do Dj João</title>
     <style>
         body {
             font-family: Arial, sans-serif;
             text-align: center;
-            background-color: #f2f2f2;
+            background-color: #f9f9f9;
         }
         h1 {
             color: #333;
         }
         button {
-            background-color: #4CAF50;
+            background-color: #ff6600;
             color: white;
             padding: 10px 20px;
             border: none;
@@ -21,21 +21,27 @@
             cursor: pointer;
         }
         button:hover {
-            background-color: #45a049;
+            background-color: #e65c00;
         }
     </style>
 </head>
 <body>
-    <h1>Bem-vindo à nossa loja de bilhetes de futebol</h1>
-    <p>Selecione o jogo que deseja comprar:</p>
-    
-    <button onclick="comprarBilhete('Jogo 1')">Comprar Bilhete para Jogo 1</button>
-    <button onclick="comprarBilhete('Jogo 2')">Comprar Bilhete para Jogo 2</button>
-    <button onclick="comprarBilhete('Jogo 3')">Comprar Bilhete para Jogo 3</button>
+    <h1>Dj João - Dashboard Administrativo da Piu Piu</h1>
+    <button onclick="visualizarPedidos()">Ver Pedidos</button>
+    <button onclick="adicionarProduto()">Adicionar Produto</button>
+    <button onclick="editarPerfil()">Editar Perfil</button>
     
     <script>
-        function comprarBilhete(jogo) {
-            alert("Bilhete comprado para o jogo: " + jogo);
+        function visualizarPedidos() {
+            alert("Visualizando pedidos...");
+        }
+        
+        function adicionarProduto() {
+            alert("Adicionando novo produto...");
+        }
+        
+        function editarPerfil() {
+            alert("Editando perfil do Dj João...");
         }
     </script>
 </body>
